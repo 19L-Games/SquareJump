@@ -1,0 +1,12 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="127" y="85" style="font-family:arial; font-size:30">Level Complete!</text>
+	<text x="60" y="303" style="font-family:arial; font-size:13">Menu</text>
+	<text x="400" y="287" style="font-family:arial; font-size:20">Next</text>
+</g>
+<path d="M89 328 L65 328 L69 322 L65 328 L69 335" stroke="black" stroke-width="2" fill="none" />
+<path d="M403 323 L448 323 L437 306 L448 323 L437 339" stroke="black" stroke-width="3" fill="none" />
+</svg>
+
+<!-- Created by 19L Games -->

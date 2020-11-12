@@ -1,0 +1,17 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="139" y="24" style="font-family:arial; font-size:30">Version 1.5</text>
+	<text x="61" y="69" style="font-family:arial; font-size:20">•Added this menu</text>
+	<text x="61" y="94" style="font-family:arial; font-size:20">•Added a way to edit character</text>
+	<text x="61" y="117" style="font-family:arial; font-size:20">•Added a settings menu</text>
+	<text x="61" y="141" style="font-family:arial; font-size:20">•Changed the collision detection system</text>
+	<text x="61" y="165" style="font-family:arial; font-size:20">•Added the level complete and failed menus</text>
+</g>
+
+<path d="M45 17 L21 17 L25 10 L21 17 L25 23" stroke="black" stroke-width="2" fill="none" />
+
+
+</svg>
+
+<!-- Created by 19L Games -->

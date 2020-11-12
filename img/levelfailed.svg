@@ -1,0 +1,18 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="127" y="85" style="font-family:arial; font-size:30">Level Failed</text>
+	<text x="60" y="303" style="font-family:arial; font-size:13">Menu</text>
+	<text x="400" y="287" style="font-family:arial; font-size:20">Retry</text>
+</g>
+<path d="M89 328 L65 328 L69 322 L65 328 L69 335" stroke="black" stroke-width="2" fill="none" />
+
+<g id="retry">
+	<circle cx="424" cy="315" r="20" style="fill:rgb(210,210,210); stroke:black; stroke-width:3" />
+	<rect x="425" y="305" width="50" height="20" fill="rgb(210,210,210)" />
+	<polygon points="436,310 446,300 446,310" />
+</g>
+
+</svg>
+
+<!-- Created by 19L Games -->

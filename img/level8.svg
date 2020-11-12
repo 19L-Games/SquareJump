@@ -1,0 +1,17 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<rect x="0" y="343" height="17" width="480" style="fill:black" />
+
+
+<rect x="318" y="343" width="62" height="17" style="fill:red" />
+<rect x="190" y="241" width="39" height="103" style="fill:red" />
+
+<g id="spikes">
+<polygon points="389,323 380,343 398,343" style="fill:rgb(34,34,34)" />
+<polygon points="257,323 248,343 266,343" style="fill:rgb(34,34,34)" />
+</g>
+
+<rect x="127" y="343" width="52" height="17" style="fill:lime" />
+</svg>
+
+<!-- Created by 19L Games -->

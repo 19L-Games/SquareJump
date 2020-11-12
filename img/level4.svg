@@ -1,0 +1,20 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<rect x="0" y="343" height="17" width="480" style="fill:black" />
+<g id="platforms">
+	<rect x="140" y="199" width="59" height="22" style="fill:black" />
+	<rect x="283" y="234" width="59" height="22" style="fill:black" />
+	<rect x="57" y="343" width="52" height="19" style="fill:lime" />
+	<rect x="121" y="343" width="184" height="19" style="fill:red" />
+</g>
+
+<g id="spikes">
+	<polygon points="318,322 309,344 327,344" style="fill:rgb(34,34,34)" />
+	<polygon points="416,322 406,344 425,344" style="fill:rgb(34,34,34)" />
+</g>
+
+<text x="83" y="57" style="font-family:arial; font-size:20">Green will make you jump higher</text>
+
+</svg>
+
+<!-- Created by 19L Games -->

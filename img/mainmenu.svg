@@ -1,0 +1,25 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<rect x="0" y="343" height="17" width="480" fill="black" />
+
+
+<text x="135" y="38" style="font-family:arial; font-size:30">Square Jump</text>
+
+<g id="buttons">
+<rect x="116" y="84" width="209" height="51" style="stroke:black; fill:rgb(210,210,210); stroke-width:5" />
+<text x="186" y="122" style="font-family:arial; font-size:30">Play!</text>
+
+<rect x="116" y="148" width="209" height="51" style="stroke:black; fill:rgb(210,210,210); stroke-width:5" />
+<text x="163" y="185" style="font-family:arial; font-size:30">Settings</text>
+
+<rect x="125" y="217" width="186" height="51" style="stroke:black; fill:rgb(210,210,210); stroke-width:5" />
+<text x="134" y="252" style="font-family:arial; font-size:30">Patch Notes</text>
+
+<rect x="306" y="301" width="137" height="36" style="stroke:black; fill:rgb(210,210,210); stroke-width:5" />
+<text x="357" y="323" style="font-family:arial; font-size:20">Edit</text>
+</g>
+
+
+</svg>
+
+<!-- Created by 19L Games -->

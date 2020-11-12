@@ -1,0 +1,13 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="119" y="34" style="font-family:arial; font-size:20">Update in progress</text>
+	<text x="74" y="100" style="font-family:arial; font-size:20">Square Jump is currently being
+	<tspan x="74" y="123">updated and is not available to</tspan>
+	<tspan x="74" y="148">play. Please try again later.</tspan>
+	<tspan x="74" y="172">-19L Games</tspan>
+	</text>
+</g>
+</svg>
+
+<!-- Created by 19L Games -->

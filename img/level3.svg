@@ -1,0 +1,16 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<rect x="0" y="343" height="17" width="480" style="fill:black" />
+<g id="lava">
+	<rect x="182" y="343" width="65" height="17" style="fill:red" />
+</g>
+
+<g id="spikes">
+	<polygon points="329,323 319,344 337,344" style="fill:rgb(34,34,34)" />
+	<polygon points="346,323 337,344 355,344" style="fill:rgb(34,34,34)" />
+	<polygon points="107,323 98,344 116,344" style="fill:rgb(34,34,34)" />
+</g>
+<text x="123" y="68" style="font-family:arial; font-size:20">Do not touch the spikes</text>
+
+</svg>
+<!-- Created by 19L Games -->

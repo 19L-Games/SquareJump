@@ -1,0 +1,16 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<rect x="0" y="343" height="17" width="480" style="fill:black" />
+<rect x="111" y="168" width="18" height="176" style="fill:black" />
+<rect x="139" y="343" width="145" height="17" style="fill:red" />
+
+
+
+<text x="106" y="17" style="font-family:arial; font-size:20">You can wall jump by going up
+<tspan x="108" y="40">and right at the same time</tspan>
+</text>
+<path d="M314 68 L417 68 L413 56 L417 68 L413 80" stroke-width="2" stroke="black" fill="none"/>
+<text x="314" y="103" style="font-family:arial; font-size:20">End tutorial </text>
+</svg>
+
+<!-- Created by 19L Games -->

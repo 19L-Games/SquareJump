@@ -1,0 +1,14 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="139" y="48" style="font-family:arial; font-size:30">Settings</text>
+	<text x="40" y="80" style="font-family:arial; font-size:20">Music Volume</text>
+	<text x="40" y="118" style="font-family:arial; font-size:20">Mobile Mode</text>
+</g>
+
+<path d="M45 17 L21 17 L25 10 L21 17 L25 23" stroke="black" stroke-width="2" fill="none" />
+
+
+</svg>
+
+<!-- Created by 19L Games -->

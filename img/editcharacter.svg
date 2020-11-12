@@ -1,0 +1,20 @@
+<svg width="480" height="360" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" height="360" width="480" style="fill:rgb(210,210,210)" />
+<g id="text">
+	<text x="139" y="24" style="font-family:arial; font-size:20">Character Editor</text>
+	<text x="362" y="18" style="font-family:arial; font-size:20">Preview:</text>
+	<text x="31" y="79" style="font-family:arial; font-size:20">Colour:</text>
+</g>
+<path d="M45 17 L21 17 L25 10 L21 17 L25 23" stroke="black" stroke-width="2" fill="none" />
+
+<g id="select">
+<rect x="20" y="107" width="28" height="28" style="fill:rgb(255,0,0)" />
+<rect x="59" y="107" width="28" height="28" style="fill:rgb(255,110,0)" />
+<rect x="98" y="107" width="28" height="28" style="fill:rgb(0,255,0)" />
+<rect x="137" y="107" width="28" height="28" style="fill:rgb(0,0,255)" />
+<rect x="176" y="107" width="28" height="28" style="fill:rgb(255,0,255)" />
+</g>
+
+</svg>
+
+<!-- Created by 19L Games -->

@@ -1,22 +1,42 @@
+//Created by 19L Games
+
+//Get the canvas and 2d graphics context
 var canvas = document.getElementById("canvas");
 var c = canvas.getContext("2d");
 
+
+//controls key variables
+var leftArrowDown = false;
+var rightArrowDown = false;
+
+//Load all the images for the game
 var blanklevel = document.getElementById("blanklevel");
 var level1 = document.getElementById("level1");
+var playerred = document.getElementById("player-red");
+var playerblue = document.getElementById("player-blue");
 var currentimg = blanklevel;
 
+
 function setup() {
-	window.setInterval(loop,1000/60);
-	document.getElementById("loading").style = "display:none"
+    //this is called when the game starts
+    user = new player(50, 50, playerblue, 0.3333, 4);
+    window.addEventListener("keydown", key);
+    window.addEventListener("keyup", keyup);
+    window.setInterval(loop, 1000 / 60);
+    document.getElementById("loading").style = "display:none"
 }
 
 function loop() {
-	clear(currentimg);
-	
+    //this is the game's main loop
+    clear(currentimg);
+    user.update();
+    user.draw();
+
 }
 
 
 function clear(img) {
-	c.drawImage(img,0,0);
-	
+    //this just clears the screen
+    c.drawImage(img, 0, 0);
+
 }

@@ -1,6 +1,4 @@
 //Created by 19L Games
-
-
 class player {
     constructor(x, y, img, gravity, speed) {
         this.x = x;
@@ -57,5 +55,20 @@ function keyup(e) {
     if (e.code == 'ArrowRight') {
         rightArrowDown = false;
     }
+
+}
+
+function getRemote(remote_url) {
+    return $.ajax({
+        type: "GET",
+        url: remote_url,
+        async: false
+    }).responseText;
+}
+
+function ood() {
+    document.getElementById("ood").style = "display:block";
+    document.getElementById("oodl").style = "display:initial";
+
 
 }

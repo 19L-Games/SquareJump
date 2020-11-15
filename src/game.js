@@ -37,10 +37,12 @@ function setup() {
         currentimg = down;
 		user.visible = false;
     }
+	
     window.addEventListener("keydown", key);
     window.addEventListener("keyup", keyup);
     window.setInterval(loop, 1000 / 60);
     document.getElementById("loading").style = "display:none"
+	document.getElementById("news").innerHTML = webdata.news;
 }
 
 function loop() {

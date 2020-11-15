@@ -7,9 +7,12 @@ class player {
         this.gravity = gravity;
         this.vy = 0;
         this.speed = speed;
+		this.visible = true;
     }
     draw() {
+		if(this.visible) {
         c.drawImage(this.img, this.x, this.y);
+		}
     }
     update() {
         if (this.y < 318) {

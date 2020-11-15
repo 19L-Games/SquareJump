@@ -16,6 +16,7 @@ var blanklevel = document.getElementById("blanklevel");
 var level1 = document.getElementById("level1");
 var playerred = document.getElementById("player-red");
 var playerblue = document.getElementById("player-blue");
+var down = document.getElementById("down");
 var currentimg = blanklevel;
 
 
@@ -28,7 +29,11 @@ function setup() {
     } else {
         ood();
     }
-    console.log("Are Servers Down: " + webdata.down);
+     if (webdata.down == false) {
+        console.log("Servers are online");
+    } else {
+        currentimg = down;
+    }
     user = new player(50, 50, playerblue, 0.3333, 4);
     window.addEventListener("keydown", key);
     window.addEventListener("keyup", keyup);

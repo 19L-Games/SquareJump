@@ -1,4 +1,6 @@
 //Created by 19L Games
+var jsoncode;
+var webdata;
 
 //Get the canvas and 2d graphics context
 var canvas = document.getElementById("canvas");
@@ -19,6 +21,14 @@ var currentimg = blanklevel;
 
 function setup() {
     //this is called when the game starts
+    jsoncode = getRemote("https://www.jsonblob.com/api/bb972a1f-2738-11eb-990f-bf95cb2273ee");
+    webdata = JSON.parse(jsoncode);
+    if (webdata.version == "v3.0-beta.2") {
+        console.log("You are running the latest version");
+    } else {
+        ood();
+    }
+    console.log("Are Servers Down: " + webdata.down);
     user = new player(50, 50, playerblue, 0.3333, 4);
     window.addEventListener("keydown", key);
     window.addEventListener("keyup", keyup);

@@ -22,7 +22,9 @@ var currentimg = blanklevel;
 
 function setup() {
     //this is called when the game starts
-    jsoncode = getRemote("https://www.jsonblob.com/api/bb972a1f-2738-11eb-990f-bf95cb2273ee");
+ 
+    user = new player(50, 300, playerblue, 0.3333, 4);
+	jsoncode = getRemote("https://www.jsonblob.com/api/bb972a1f-2738-11eb-990f-bf95cb2273ee");
     webdata = JSON.parse(jsoncode);
     if (webdata.version == "v3.0-beta.2") {
         console.log("You are running the latest version");
@@ -33,8 +35,8 @@ function setup() {
         console.log("Servers are online");
     } else {
         currentimg = down;
+		user.visible = false;
     }
-    user = new player(50, 50, playerblue, 0.3333, 4);
     window.addEventListener("keydown", key);
     window.addEventListener("keyup", keyup);
     window.setInterval(loop, 1000 / 60);

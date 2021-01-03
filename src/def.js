@@ -7,12 +7,12 @@ class player {
         this.gravity = gravity;
         this.vy = 0;
         this.speed = speed;
-		this.visible = true;
+        this.visible = true;
     }
     draw() {
-		if(this.visible) {
-        c.drawImage(this.img, this.x, this.y);
-		}
+        if (this.visible) {
+            c.drawImage(this.img, this.x, this.y);
+        }
     }
     update() {
         if (this.y < 318) {
@@ -72,6 +72,4 @@ function getRemote(remote_url) {
 function ood() {
     document.getElementById("ood").style = "display:block";
     document.getElementById("oodl").style = "display:initial";
-
-
 }
